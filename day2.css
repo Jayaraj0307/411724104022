@@ -1,0 +1,36 @@
+body{
+    color: rgb(21, 208, 255);
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+/* p{
+    font-style: italic;
+} */
+img{
+    height: auto;
+    width: 100%;
+    border-radius:10px ;
+}
+/* video{
+    height: 350px;
+} */
+
+button:hover{
+    background-color: rgb(12, 51, 222);
+}
+#p1{
+    font-style: italic;
+}
+
+#p2{
+    font-style: normal;
+}
+.pclass{
+    font-size: xx-large;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
