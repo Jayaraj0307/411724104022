@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Project</title>
+        <style>
+            .navstyle{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                background-color: rgb(174, 166, 166);
+                gap:5px ;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            @media (min-width:1024px) {
+                .navstyle{
+                    flex-direction: row;
+                    padding: 25px;
+                    gap: 15px;
+                }
+            }
+            .imagestyle{
+                width: 50%;
+                border-radius: 50px;
+            }
+            .vstyle{
+                width: 50%;
+                height: auto;
+                background-color:blue;
+                padding: 5px;
+            }
+            .tablestyle{
+                background-color: bisque;
+                width: 800px;                
+
+            }
+            .tablestyle td,
+            .tablestyle tr,
+            .tablestyle th{
+                padding: 20px;
+            }
+            .bstyle{
+                color:white;
+                width: 75x;
+                border-radius: 10px;
+                padding: 10px;
+                background-color:blue;
+                cursor: pointer;
+            }
+            .bstyle:hover{ 
+                background-color: cornflowerblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="navstyle">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <center>
+            
+        <h1>Student Profile Page</h1>
+        <img class ="imagestyle" src="Stu.png"><br>
+        <video class="vstyle" controls>
+            <source src="stuvideo.mp4" type="video/mp4">
+        </video>
+        
+        <table class="tablestyle" border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Mark</th>
+            </tr>
+            <tr>
+                <td>Jayaraj</td>
+                <td>18</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Gowshik</td>
+                <td>19</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Enamul</td>
+                <td>19</td>
+                <td>80</td>
+            </tr>
+        </table><br>    
+        <button class="bstyle"> JOIN</button>
+        </center>
+        
+    </body>
+</html>
